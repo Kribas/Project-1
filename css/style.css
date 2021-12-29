@@ -1,0 +1,644 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Roboto:wght@100&display=swap");
+.header {
+  background-color: #0071DC;
+  padding-top: 20px;
+}
+
+.header .departments-services .header-departments {
+  margin-left: 20px;
+}
+
+.header .departments-services .header-departments i {
+  font-size: 18px;
+  color: #fff;
+}
+
+.header .departments-services .header-departments p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.header .departments-services .header-services {
+  margin-left: 20px;
+}
+
+.header .departments-services .header-services i {
+  font-size: 18px;
+  color: #fff;
+}
+
+.header .departments-services .header-services p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.header .walmart-search {
+  position: relative;
+}
+
+.header .walmart-search .form-control {
+  display: block;
+  height: 40px;
+  width: 800px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 99px;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.header .walmart-search i {
+  border: 1px solid #FFC220;
+  background-color: #FFC220;
+  position: absolute;
+  right: 8px;
+  border-radius: 99px;
+  width: 30px;
+  text-align: center;
+}
+
+.header .my-items i {
+  font-size: 19px;
+  padding: 10px 5px;
+}
+
+.header .my-items .items-reorder {
+  margin-left: 5px;
+}
+
+.header .my-items .items-reorder .reorder {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.header .my-items .items-reorder .item {
+  font-size: 15px;
+}
+
+.header .my-account {
+  margin-left: 20px;
+}
+
+.header .my-account i {
+  font-size: 19px;
+  padding: 10px 5px;
+}
+
+.header .my-account .sign-in-text {
+  margin-left: 5px;
+}
+
+.header .my-account .sign-in-text .sign-in {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.header .my-account .sign-in-text .account {
+  font-size: 15px;
+}
+
+.location-header {
+  background-color: #004F9A;
+}
+
+.location-header p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.location-header i {
+  padding-left: 10px;
+}
+
+.banner .w-100 {
+  border-radius: 8px;
+}
+
+.mid-section {
+  margin-top: 20px;
+}
+
+.mid-section .card-upper {
+  height: 129px;
+  position: relative;
+  background-color: #E6F1FC;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.mid-section .card-upper .card-title {
+  font-size: 18px;
+  padding-right: 58px;
+}
+
+.mid-section .card-upper .card-text {
+  padding-left: 105px;
+}
+
+.mid-section .card-upper .card-body {
+  position: absolute;
+  top: 0px;
+}
+
+.mid-section .card-upper .card-body .btn {
+  border-radius: 99px;
+  border: 1px solid black;
+  font-size: 13px;
+}
+
+.mid-section .card-upper .card-body :hover {
+  border-width: 2px;
+}
+
+.mid-section .card-lower {
+  height: 243px;
+  position: relative;
+  background-color: #E6F1FC;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.mid-section .card-lower .card-title {
+  font-size: 18px;
+}
+
+.mid-section .card-lower .card-body-services {
+  padding: 3px 30px;
+}
+
+.mid-section .card-lower .card-body-services .service {
+  cursor: pointer;
+}
+
+.mid-section .card-lower .card-body-services .service p {
+  font-size: 12px;
+}
+
+.mid-section .card-middle {
+  height: 395px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.mid-section .card-middle .card-title {
+  font-size: 18px;
+}
+
+.mid-section .card-middle .row-cols-2 > * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.mid-section .card-middle .carousel-control-next, .mid-section .card-middle .carousel-control-prev {
+  position: absolute;
+  top: 48%;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 14%;
+  height: 14%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 99px;
+  opacity: .5;
+  -webkit-transition: opacity .15s ease;
+  transition: opacity .15s ease;
+}
+
+.mid-section .card-middle :hover {
+  border-width: 2px;
+}
+
+.mid-section .card-right {
+  height: 395px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.mid-section .card-right .card-title {
+  font-size: 18px;
+  padding-right: 58px;
+}
+
+.mid-section .card-right .items {
+  margin-top: 30px;
+}
+
+.mid-section .card-right .items .item {
+  padding-left: 50px;
+}
+
+.mid-section .card-right .items .item p {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.mid-section img, .mid-section svg {
+  vertical-align: middle;
+  width: 100px;
+}
+
+.advertisement {
+  background-image: url("https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-bg-dweb.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 30px;
+  height: 48px;
+}
+
+.advertisement .ad-content img {
+  height: 30px;
+  width: 30px;
+}
+
+.advertisement .ad-content h2 {
+  font-size: 16px;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.advertisement .ad-content .restrictions-apply {
+  font-size: 17px;
+  padding-right: 5px;
+}
+
+.advertisement .ad-content .try-walmart {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.build-your-cart .build-your-cart-header h2 {
+  font-size: 18px;
+}
+
+.build-your-cart .build-your-cart-body .owl-carousel .owl-item img {
+  display: block;
+  width: 180px;
+  margin-top: 30px;
+}
+
+.build-your-cart .build-your-cart-body .item {
+  position: relative;
+}
+
+.build-your-cart .build-your-cart-body .item .item-description .item-price p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.build-your-cart .build-your-cart-body .item .item-summary {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  display: inline;
+}
+
+.build-your-cart .build-your-cart-body .item .item-rating {
+  font-size: 12px;
+}
+
+.build-your-cart .build-your-cart-body .item .item-delivery {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.build-your-cart .build-your-cart-body .item .item-delivery button {
+  font-size: 12px;
+  border: none;
+  color: #0073C3;
+  background-color: #E6F1FC;
+  padding: 5px;
+  padding-top: 2px;
+}
+
+.build-your-cart .build-your-cart-body .add-item {
+  position: absolute;
+  bottom: 186px;
+  z-index: 1;
+  border-radius: 99px;
+  background-color: #0071DC;
+  border: none;
+  width: 81px;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.build-your-cart .build-your-cart-body .add-item-6 {
+  position: absolute;
+  bottom: 186px;
+  z-index: 1;
+  border-radius: 99px;
+  background-color: #0071DC;
+  border: none;
+  width: 81px;
+  color: #fff;
+  padding: 10px 5px;
+  margin-bottom: 17px;
+}
+
+.departments .departments-header h2 {
+  font-size: 18px;
+}
+
+.departments .departments-header p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+.departments .departments-body .department {
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+  position: relative;
+  border-radius: 0.25rem;
+}
+
+.departments .departments-body .department .department-background {
+  width: auto;
+  height: auto;
+}
+
+.departments .departments-body .department h4 {
+  top: 100px;
+  position: absolute;
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 17px;
+  color: #004FAA;
+}
+
+.sports-and-outdoors .sports-and-outdoors-header h2 {
+  font-size: 18px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item {
+  margin-right: 50px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .top-button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .top-button button {
+  font-size: 12px;
+  border: 1px solid #0073C3;
+  background-color: #fff;
+  color: #0073C3;
+  padding: 5px;
+  padding-top: 2px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .item-image {
+  display: block;
+  margin-top: 30px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .item-image img {
+  width: 130px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .add-item {
+  display: inline-block;
+  z-index: 1;
+  border-radius: 99px;
+  background-color: #0071DC;
+  border: none;
+  width: 81px;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .item-description .item-price p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .item-summary {
+  display: block;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .item-summary p {
+  text-align: start;
+  margin-bottom: 0;
+  font-size: 12px;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .item-rating {
+  font-size: 12px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .item-delivery {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.sports-and-outdoors .sports-and-outdoors-body .item .item-delivery button {
+  font-size: 12px;
+  border: none;
+  color: #0073C3;
+  background-color: #E6F1FC;
+  padding: 5px;
+  padding-top: 2px;
+}
+
+@media (min-width: 900px) {
+  .earn-cash-back {
+    margin: 0;
+  }
+}
+
+.earn-cash-back {
+  margin-top: 40px;
+}
+
+.earn-cash-back .earn-cash-back-body {
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 10px 0px;
+}
+
+.earn-cash-back .earn-cash-back-body img {
+  width: 100px;
+}
+
+.earn-cash-back .earn-cash-back-body .body-text .fw-bold {
+  border-bottom: 5px solid #0071DC;
+  margin-right: 5px;
+}
+
+.for-you .for-you-header h2 {
+  font-size: 18px;
+}
+
+.for-you .for-you-body .card-item-1 {
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  margin-right: 25px;
+}
+
+.for-you .for-you-body .card-item-1 img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 416px;
+}
+
+.for-you .for-you-body .card-item-1 h3 {
+  font-size: 18px;
+  padding: 20px 10px;
+}
+
+.for-you .for-you-body .card-item-1 p {
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+}
+
+.for-you .for-you-body .card-item-1 button {
+  border-radius: 90px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+
+.for-you .for-you-body .card-item-1 button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.for-you .for-you-body .card-item-2 {
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  margin-right: 25px;
+}
+
+.for-you .for-you-body .card-item-2 img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 416px;
+}
+
+.for-you .for-you-body .card-item-2 h3 {
+  font-size: 18px;
+  padding: 20px 10px;
+}
+
+.for-you .for-you-body .card-item-2 p {
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+}
+
+.for-you .for-you-body .card-item-2 button {
+  border-radius: 90px;
+  padding: 5px 10px;
+  margin-top: 26px;
+  margin-left: 10px;
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+
+.for-you .for-you-body .card-item-2 button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.for-you .for-you-body .card-item-3 {
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+}
+
+.for-you .for-you-body .card-item-3 img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 416px;
+}
+
+.for-you .for-you-body .card-item-3 h3 {
+  font-size: 18px;
+  padding: 20px 10px;
+}
+
+.for-you .for-you-body .card-item-3 p {
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+}
+
+.for-you .for-you-body .card-item-3 button {
+  border-radius: 90px;
+  padding: 5px 10px;
+  margin-top: 26px;
+  margin-left: 10px;
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+
+.for-you .for-you-body .card-item-3 button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

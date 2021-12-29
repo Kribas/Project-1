@@ -1,0 +1,24 @@
+@media (min-width: 900px) {
+    .earn-cash-back {
+        margin: 0;
+    }
+}
+
+.earn-cash-back {
+    margin-top: 40px;
+        .earn-cash-back-body {
+            box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+            border-radius: 6px;
+            padding: 10px 0px;
+            img {
+                width: 100px;
+            }
+
+            .body-text {
+                .fw-bold {
+                    border-bottom: 5px solid $brand;
+                    margin-right: 5px;
+                }
+            }
+        }
+}

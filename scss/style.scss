@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Roboto:wght@100&display=swap');
+@import 'var';
+@import 'header';
+@import 'banner-slider';
+@import 'mid-section';
+@import 'advertisement';
+@import 'build-your-cart';
+@import 'departments';
+@import 'sports-and-outdoors';
+@import 'earn-cash-back';
+@import 'for-you';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,30 @@
+.advertisement {
+    background-image: url('https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-bg-dweb.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 30px;
+    height: 48px;
+        .ad-content {
+            
+            img {
+                height: 30px;
+                width: 30px;
+            }
+            h2 {
+                font-size: 16px;
+                margin-bottom: 0;
+                padding-left: 10px;
+                padding-right: 5px;
+            }
+
+            .restrictions-apply {
+                font-size: 17px;
+                padding-right: 5px;
+            }
+
+            .try-walmart {
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+}

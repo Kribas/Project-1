@@ -1,0 +1,119 @@
+.header {
+    background-color: $brand;
+    padding-top: 20px;
+    .departments-services {
+        
+            .header-departments {
+                margin-left: 20px;
+                    i {
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                    p {
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        padding-left: 5px;
+                        font-size: 14px;
+                        color: #fff;
+                    }
+            }
+
+            .header-services {
+                margin-left: 20px;
+                    i {
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                    p {
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        padding-left: 5px;
+                        color: #fff;
+                        font-size: 14px;
+                    }
+            }
+    }
+        .walmart-search {
+            position: relative;
+            .form-control {
+                display: block;
+                height: 40px;
+                width: 800px;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                border-radius: 99px;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+
+            i {
+                border: 1px solid #FFC220;
+                background-color: #FFC220;
+                position: absolute;
+                right: 8px;
+                border-radius: 99px;
+                width: 30px;
+                text-align: center;
+            }
+    
+        }
+
+        .my-items {
+                i {
+                    font-size: 19px;
+                    padding: 10px 5px;
+                }
+               .items-reorder {
+                   margin-left: 5px;
+                    .reorder {
+                        font-size: 12px;
+                        margin-bottom: 0;
+                    }
+                    .item {
+                        font-size: 15px;
+                    }
+               }
+        }
+
+        .my-account {
+            margin-left: 20px;
+                i {
+                    font-size: 19px;
+                    padding: 10px 5px;
+                }
+               .sign-in-text {
+                   margin-left: 5px;
+                    .sign-in {
+                        font-size: 12px;
+                        margin-bottom: 0;
+                    }
+                    .account {
+                        font-size: 15px;
+                    }
+               }
+        }  
+}
+
+.location-header {
+    background-color: $secondary;
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+
+    i {
+        padding-left: 10px;
+    }
+}
