@@ -1,0 +1,86 @@
+.games-and-accessories {
+    margin-top: 50px;
+    .games-and-accessories-header {
+        h2 {
+            font-size: 18px;
+        }
+    }
+
+    .games-and-accessories-body {
+        .item {
+            margin-right: 50px;
+
+            .item-image {
+                display: block;
+                margin-top: 30px;
+                img {
+                    width: 130px;
+                }
+            }
+
+            .add-item {
+                display: inline-block;
+                z-index: 1;
+                border-radius: 99px;
+                background-color: #0071DC;
+                border: none;
+                width: 81px;
+                color: #fff;
+                padding: 10px 5px;
+            }
+                .item-description {
+                    .item-price {
+                        p {
+                            margin-top: 0;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+
+                .item-summary {
+                    display: block;
+                        p {
+                            text-align: start;
+                            margin-bottom: 0;
+                            font-size: 12px;
+                            overflow: auto;
+                            text-overflow: ellipsis; 
+                        } 
+                    
+                }
+
+                .item-rating {
+                    font-size: 12px;
+                }
+
+                .item-delivery {
+                    display: inline-block;
+                    margin-top: 10px;
+                        button {
+                            font-size: 12px;
+                            border: none;
+                            color: #0073C3;
+                            background-color: #E6F1FC;
+                            padding: 5px;
+                            padding-top: 2px;
+                        }
+                }
+
+                
+                
+                // .add-item-6 {
+                //     position: absolute;
+                //     bottom: 186px;
+                //     z-index: 1;
+                //     border-radius: 99px;
+                //     background-color: #0071DC;
+                //     border: none;
+                //     width: 81px;
+                //     color: #fff;
+                //     padding: 10px 5px;
+                //     margin-bottom: 17px;
+                // }
+           
+        }
+    }
+}

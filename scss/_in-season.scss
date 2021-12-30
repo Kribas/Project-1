@@ -1,19 +1,19 @@
-.for-you {
-    .for-you-header {
+.in-season {
+    .in-season-header {
         h2 {
             font-size: 18px;
         }
     }
 
-    .for-you-body {
-        .card-item-1 {
+    .in-season-body {
+        .in-season-item-1 {
             box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
             border-radius: 0.5rem;
             margin-right: 25px;
                 img {
                     border-top-left-radius: 0.5rem;
                     border-top-right-radius: 0.5rem;
-                    width: 416px;
+                    // width: 611px;
                 }
                 h3 {
                     font-size: 18px;
@@ -41,14 +41,14 @@
                     color: #fff;
                 }
         }
-        .card-item-2 {
+        .in-season-item-2 {
             box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
             border-radius: 0.5rem;
             margin-right: 25px;
             img {
                 border-top-left-radius: 0.5rem;
                 border-top-right-radius: 0.5rem;
-                width: 416px;
+                // width: 611px;
             }
             h3 {
                 font-size: 18px;
@@ -63,41 +63,7 @@
             button {
                 border-radius: 90px;
                 padding: 5px 10px;
-                margin-top: 23px;
-                margin-left: 10px;
-                background-color: #fff;
-                font-size: 13px;
-                font-weight: bold;
-                border: 1px solid #000;
-            }
-
-            button:hover {
-                background-color: #000;
-                color: #fff;
-            }
-        }
-        .card-item-3 {
-            box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
-            border-radius: 0.5rem;
-            img {
-                border-top-left-radius: 0.5rem;
-                border-top-right-radius: 0.5rem;
-                width: 416px;
-            }
-            h3 {
-                font-size: 18px;
-                padding: 20px 10px;
-            }
-
-            p {
-                font-size: 14px;
-                padding: 0 10px 0 10px;
-            }
-
-            button {
-                border-radius: 90px;
-                padding: 5px 10px;
-                margin-top: 23px;
+                margin-bottom: 10px;
                 margin-left: 10px;
                 background-color: #fff;
                 font-size: 13px;
@@ -111,4 +77,5 @@
             }
         }
     }
+
 }
