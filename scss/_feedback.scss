@@ -1,0 +1,26 @@
+.feedback {
+    background-color: #E6F1FC;
+    margin-top: 20px;
+        .feedback-body {
+            padding: 40px;
+            p {
+                margin-bottom: 0;
+                font-size: 14px;
+            }
+
+            button {
+                padding: 0 1.5rem;
+                border: 1px solid #000;
+                border-radius: 62.5rem;
+                height: 2.5rem;
+                background-color: #fff;
+                font-weight: 700;
+                font-size: 14px;
+                margin-top: 20px;
+            }
+
+            button:hover {
+                border-width: 2px;
+            }
+        }
+}

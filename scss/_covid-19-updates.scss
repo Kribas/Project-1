@@ -1,12 +1,12 @@
-.for-you {
-    .for-you-header {
+.covid-19-updates {
+    .covid-19-updates-header {
         h2 {
             font-size: 18px;
         }
     }
 
-    .for-you-body {
-        .card-item-1 {
+    .covid-19-updates-body {
+        .update-1 {
             box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
             border-radius: 0.5rem;
             margin-right: 25px;
@@ -27,7 +27,8 @@
                 button {
                     border-radius: 90px;
                     padding: 5px 10px;
-                    margin-bottom: 14px;
+                    margin-top: 22px;
+                    margin-bottom: 15px;
                     margin-left: 10px;
                     background-color: #fff;
                     font-size: 13px;
@@ -40,7 +41,7 @@
                     color: #fff;
                 }
         }
-        .card-item-2 {
+        .update-2 {
             box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
             border-radius: 0.5rem;
             margin-right: 25px;
@@ -61,8 +62,8 @@
             button {
                 border-radius: 90px;
                 padding: 5px 10px;
-                margin-top: 21px;
-                margin-bottom: 14px;
+                margin-top: 22px;
+                margin-bottom: 15px;
                 margin-left: 10px;
                 background-color: #fff;
                 font-size: 13px;
@@ -75,7 +76,8 @@
                 color: #fff;
             }
         }
-        .card-item-3 {
+
+        .update-3 {
             box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
             border-radius: 0.5rem;
             margin-right: 25px;
@@ -96,7 +98,6 @@
             button {
                 border-radius: 90px;
                 padding: 5px 10px;
-                margin-top: 21px;
                 margin-bottom: 14px;
                 margin-left: 10px;
                 background-color: #fff;

@@ -1,12 +1,13 @@
-.for-you {
-    .for-you-header {
+.sharing-values {
+    margin-top: 10px;
+    .sharing-values-header {
         h2 {
             font-size: 18px;
         }
     }
 
-    .for-you-body {
-        .card-item-1 {
+    .sharing-values-body {
+        .value-1 {
             box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
             border-radius: 0.5rem;
             margin-right: 25px;
@@ -27,7 +28,8 @@
                 button {
                     border-radius: 90px;
                     padding: 5px 10px;
-                    margin-bottom: 14px;
+                    margin-top: 2px;
+                    margin-bottom: 15px;
                     margin-left: 10px;
                     background-color: #fff;
                     font-size: 13px;
@@ -40,7 +42,7 @@
                     color: #fff;
                 }
         }
-        .card-item-2 {
+        .value-2 {
             box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
             border-radius: 0.5rem;
             margin-right: 25px;
@@ -61,8 +63,8 @@
             button {
                 border-radius: 90px;
                 padding: 5px 10px;
-                margin-top: 21px;
-                margin-bottom: 14px;
+                margin-top: 2px;
+                margin-bottom: 15px;
                 margin-left: 10px;
                 background-color: #fff;
                 font-size: 13px;
@@ -75,7 +77,8 @@
                 color: #fff;
             }
         }
-        .card-item-3 {
+
+        .value-3 {
             box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
             border-radius: 0.5rem;
             margin-right: 25px;
@@ -96,8 +99,7 @@
             button {
                 border-radius: 90px;
                 padding: 5px 10px;
-                margin-top: 21px;
-                margin-bottom: 14px;
+                margin-bottom: 15px;
                 margin-left: 10px;
                 background-color: #fff;
                 font-size: 13px;
