@@ -1,8 +1,10 @@
 .header {
     background-color: $brand;
     padding-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
     .departments-services {
-        
             .header-departments {
                 margin-left: 20px;
                     i {
@@ -105,6 +107,8 @@
 
 .location-header {
     background-color: $secondary;
+    margin-top: 77px;
+    padding: 5px 10px;
     p {
         margin-top: 0;
         margin-bottom: 0;

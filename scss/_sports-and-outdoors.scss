@@ -5,6 +5,12 @@
         }
     }
     .sports-and-outdoors-body {
+        .owl-carousel .owl-item img {
+            display: block;
+            max-width: 250%;
+            width: 130px;
+            margin-top: 30px;
+        }
         .item {
             margin-right: 50px;
             .top-button {
@@ -20,13 +26,6 @@
                     }
             }
 
-            .item-image {
-                display: block;
-                margin-top: 30px;
-                img {
-                    width: 130px;
-                }
-            }
 
             .add-item {
                 display: inline-block;
@@ -34,30 +33,34 @@
                 border-radius: 99px;
                 background-color: #0071DC;
                 border: none;
-                width: 81px;
+                width: 70px;
                 color: #fff;
-                padding: 10px 5px;
+                padding: 5px 5px;
             }
                 .item-description {
                     .item-price {
                         p {
                             margin-top: 0;
                             margin-bottom: 10px;
+                            
                         }
+                    }
+
+                    .item-summary {
+                        display: inline;
+                        max-width: 100%;
+                        width: 100px; 
+                            p {
+                                text-align: start;
+                                margin-bottom: 0;
+                                font-size: 12px;
+                                
+                            } 
+                        
                     }
                 }
 
-                .item-summary {
-                    display: block;
-                        p {
-                            text-align: start;
-                            margin-bottom: 0;
-                            font-size: 12px;
-                            overflow: auto;
-                            text-overflow: ellipsis; 
-                        } 
-                    
-                }
+                
 
                 .item-rating {
                     font-size: 12px;
@@ -71,8 +74,8 @@
                             border: none;
                             color: #0073C3;
                             background-color: #E6F1FC;
-                            padding: 5px;
-                            padding-top: 2px;
+                            padding: 5px 1px;
+                            margin-top: 5px;
                         }
                 }
 
@@ -93,4 +96,6 @@
            
         }
     }
+
+    
 }

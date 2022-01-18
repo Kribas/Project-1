@@ -6,6 +6,14 @@
     }
 
     .computers-and-accessories-body {
+
+        .owl-carousel .owl-item img {
+            display: block;
+            max-width: 250%;
+            width: 130px;
+            margin-top: 30px;
+        }
+
         .item {
             margin-right: 50px;
             .top-button {
@@ -21,23 +29,15 @@
                     }
             }
 
-            .item-image {
-                display: block;
-                margin-top: 30px;
-                img {
-                    width: 130px;
-                }
-            }
-
             .add-item {
                 display: inline-block;
                 z-index: 1;
                 border-radius: 99px;
                 background-color: #0071DC;
                 border: none;
-                width: 81px;
+                width: 70px;
                 color: #fff;
-                padding: 10px 5px;
+                padding: 5px 5px;
             }
                 .item-description {
                     .item-price {
@@ -49,13 +49,12 @@
                 }
 
                 .item-summary {
-                    display: block;
                         p {
                             text-align: start;
                             margin-bottom: 0;
                             font-size: 12px;
-                            overflow: auto;
-                            text-overflow: ellipsis; 
+                            width: 200px;
+                            max-width: 100%;
                         } 
                     
                 }

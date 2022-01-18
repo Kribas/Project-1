@@ -2,29 +2,36 @@
     background-image: url('https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-bg-dweb.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 2rem;
+    
+    max-width: 100%;
     padding: 10px 30px;
     height: 48px;
-        .ad-content {
-            
+        .advertisement__image {
             img {
                 height: 30px;
                 width: 30px;
             }
+        }
+
+        .advertisement__text {
+            color: #fff;
             h2 {
                 font-size: 16px;
                 margin-bottom: 0;
                 padding-left: 10px;
                 padding-right: 5px;
             }
-
-            .restrictions-apply {
+            .text-theme {
                 font-size: 17px;
                 padding-right: 5px;
+                font-weight: 600;
             }
-
-            .try-walmart {
+            .text-link {
                 font-size: 16px;
                 cursor: pointer;
+                text-decoration: underline;
             }
         }
+        
 }
