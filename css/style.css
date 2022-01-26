@@ -7,6 +7,10 @@
   z-index: 99;
 }
 
+.header .departments-services .walmart-logo {
+  margin-bottom: 5px;
+}
+
 .header .departments-services .header-departments {
   margin-left: 20px;
 }
@@ -339,7 +343,7 @@
 
 .build-your-cart .build-your-cart-body .item {
   position: relative;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 
 .build-your-cart .build-your-cart-body .item .item-description .item-price p {
